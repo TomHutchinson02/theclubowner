@@ -1,0 +1,51 @@
+{
+  "format": 1,
+  "name": "Sample pack",
+  "author": "The Club Owner",
+  "clubs": [
+    {
+      "tier": 1,
+      "name": "Kingsport City",
+      "shortName": "Kingsport",
+      "primaryColour": "#6CABDD",
+      "secondaryColour": "#FFFFFF",
+      "stadium": "Kingsport Arena"
+    },
+    {
+      "tier": 1,
+      "name": "Redcliffe United",
+      "shortName": "Redcliffe",
+      "primaryColour": "#C8102E",
+      "secondaryColour": "#000000"
+    },
+    {
+      "tier": 5,
+      "name": "Saltmarsh Town",
+      "shortName": "Saltmarsh",
+      "primaryColour": "#F78F1E",
+      "secondaryColour": "#000000",
+      "stadium": "The Marsh"
+    },
+    {
+      "tier": 5,
+      "name": "Hartley Wanderers",
+      "shortName": "Hartley",
+      "primaryColour": "#5B2C83",
+      "secondaryColour": "#FFFFFF"
+    },
+    {
+      "tier": 5,
+      "name": "Brightwater FC",
+      "shortName": "Brightwater"
+    }
+  ],
+  "leagues": [
+    "Kingsport Premier",
+    "Kingsport Championship",
+    "",
+    ""
+  ],
+  "cups": {
+    "fa-cup": "Kingsport Challenge Cup"
+  }
+}
