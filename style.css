@@ -46,3 +46,13 @@ h3{font-family:"Barlow Condensed",Inter,sans-serif;text-transform:uppercase;lett
 .tag{display:inline-block;background:var(--gold);color:#14110A;font-weight:700;font-size:12px;text-transform:uppercase;letter-spacing:.06em;padding:2px 8px;border-radius:6px;margin-bottom:10px!important}
 .closing{text-align:center;margin-top:40px}
 footer a{color:var(--muted)}
+
+/* More breathing room around the home page */
+.landing{padding:clamp(12px,3vw,32px) clamp(20px,5vw,64px) 0}
+.landing .hero{border-radius:20px;background:transparent}
+.landing .hero-art{border-radius:20px}
+.landing .hero-text{padding:8px 0}
+.landing .strip{padding:0 0 12px;scroll-padding:0 0}
+.landing .shots{max-width:1600px;margin:0 auto}
+.landing main{padding:32px 0 64px}
+.landing .features{gap:20px}
