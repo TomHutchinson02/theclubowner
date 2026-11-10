@@ -1,0 +1,904 @@
+{
+  "format": 1,
+  "name": "English Football 1998/99 (retro)",
+  "author": "Tom",
+  "leagues": [
+    "Premier League",
+    "First Division",
+    "Second Division",
+    "Third Division",
+    "Football Conference"
+  ],
+  "cups": {
+    "fa-cup": "FA Cup",
+    "league-cup": "Worthington Cup",
+    "efl-trophy": "Auto Windscreens Shield",
+    "champions-league": "Champions League",
+    "europa-league": "Cup Winners' Cup",
+    "conference-league": "UEFA Cup"
+  },
+  "clubs": [
+    {
+      "tier": 1,
+      "name": "Manchester United",
+      "shortName": "Man Utd",
+      "primaryColour": "#DA291C",
+      "secondaryColour": "#FFFFFF",
+      "stadium": "Old Trafford"
+    },
+    {
+      "tier": 1,
+      "name": "Arsenal",
+      "primaryColour": "#EF0107",
+      "secondaryColour": "#FFFFFF",
+      "stadium": "Highbury"
+    },
+    {
+      "tier": 1,
+      "name": "Chelsea",
+      "primaryColour": "#034694",
+      "secondaryColour": "#FFFFFF",
+      "stadium": "Stamford Bridge"
+    },
+    {
+      "tier": 1,
+      "name": "Leeds United",
+      "shortName": "Leeds",
+      "primaryColour": "#FFFFFF",
+      "secondaryColour": "#1D428A",
+      "stadium": "Elland Road"
+    },
+    {
+      "tier": 1,
+      "name": "West Ham United",
+      "shortName": "West Ham",
+      "primaryColour": "#7A263A",
+      "secondaryColour": "#1BB1E7",
+      "stadium": "Upton Park"
+    },
+    {
+      "tier": 1,
+      "name": "Aston Villa",
+      "shortName": "Villa",
+      "primaryColour": "#670E36",
+      "secondaryColour": "#95BFE5",
+      "stadium": "Villa Park"
+    },
+    {
+      "tier": 1,
+      "name": "Liverpool",
+      "primaryColour": "#C8102E",
+      "secondaryColour": "#FFFFFF",
+      "stadium": "Anfield"
+    },
+    {
+      "tier": 1,
+      "name": "Derby County",
+      "shortName": "Derby",
+      "primaryColour": "#FFFFFF",
+      "secondaryColour": "#000000",
+      "stadium": "Pride Park"
+    },
+    {
+      "tier": 1,
+      "name": "Middlesbrough",
+      "shortName": "Boro",
+      "primaryColour": "#E11B22",
+      "secondaryColour": "#FFFFFF",
+      "stadium": "Riverside Stadium"
+    },
+    {
+      "tier": 1,
+      "name": "Leicester City",
+      "shortName": "Leicester",
+      "primaryColour": "#003090",
+      "secondaryColour": "#FFFFFF",
+      "stadium": "Filbert Street"
+    },
+    {
+      "tier": 1,
+      "name": "Tottenham Hotspur",
+      "shortName": "Spurs",
+      "primaryColour": "#FFFFFF",
+      "secondaryColour": "#132257",
+      "stadium": "White Hart Lane"
+    },
+    {
+      "tier": 1,
+      "name": "Sheffield Wednesday",
+      "shortName": "Sheff Wed",
+      "primaryColour": "#1B4FA0",
+      "secondaryColour": "#FFFFFF",
+      "stadium": "Hillsborough"
+    },
+    {
+      "tier": 1,
+      "name": "Newcastle United",
+      "shortName": "Newcastle",
+      "primaryColour": "#241F20",
+      "secondaryColour": "#FFFFFF",
+      "stadium": "St James' Park"
+    },
+    {
+      "tier": 1,
+      "name": "Everton",
+      "primaryColour": "#003399",
+      "secondaryColour": "#FFFFFF",
+      "stadium": "Goodison Park"
+    },
+    {
+      "tier": 1,
+      "name": "Coventry City",
+      "shortName": "Coventry",
+      "primaryColour": "#59CBE8",
+      "secondaryColour": "#FFFFFF",
+      "stadium": "Highfield Road"
+    },
+    {
+      "tier": 1,
+      "name": "Wimbledon",
+      "primaryColour": "#002F6C",
+      "secondaryColour": "#FFD200",
+      "stadium": "Selhurst Park"
+    },
+    {
+      "tier": 1,
+      "name": "Southampton",
+      "shortName": "Saints",
+      "primaryColour": "#D71920",
+      "secondaryColour": "#FFFFFF",
+      "stadium": "The Dell"
+    },
+    {
+      "tier": 1,
+      "name": "Charlton Athletic",
+      "shortName": "Charlton",
+      "primaryColour": "#D4021D",
+      "secondaryColour": "#FFFFFF",
+      "stadium": "The Valley"
+    },
+    {
+      "tier": 1,
+      "name": "Blackburn Rovers",
+      "shortName": "Blackburn",
+      "primaryColour": "#009EE0",
+      "secondaryColour": "#FFFFFF",
+      "stadium": "Ewood Park"
+    },
+    {
+      "tier": 1,
+      "name": "Nottingham Forest",
+      "shortName": "Forest",
+      "primaryColour": "#DD0000",
+      "secondaryColour": "#FFFFFF",
+      "stadium": "City Ground"
+    },
+    {
+      "tier": 2,
+      "name": "Sunderland",
+      "primaryColour": "#EB172B",
+      "secondaryColour": "#FFFFFF",
+      "stadium": "Stadium of Light"
+    },
+    {
+      "tier": 2,
+      "name": "Bradford City",
+      "shortName": "Bradford",
+      "primaryColour": "#8C1C2B",
+      "secondaryColour": "#F7B718",
+      "stadium": "Valley Parade"
+    },
+    {
+      "tier": 2,
+      "name": "Ipswich Town",
+      "shortName": "Ipswich",
+      "primaryColour": "#0044A9",
+      "secondaryColour": "#FFFFFF",
+      "stadium": "Portman Road"
+    },
+    {
+      "tier": 2,
+      "name": "Birmingham City",
+      "shortName": "Birmingham",
+      "primaryColour": "#1E3F99",
+      "secondaryColour": "#FFFFFF",
+      "stadium": "St Andrew's"
+    },
+    {
+      "tier": 2,
+      "name": "Watford",
+      "primaryColour": "#FBEE23",
+      "secondaryColour": "#ED2127",
+      "stadium": "Vicarage Road"
+    },
+    {
+      "tier": 2,
+      "name": "Bolton Wanderers",
+      "shortName": "Bolton",
+      "primaryColour": "#FFFFFF",
+      "secondaryColour": "#263C7E",
+      "stadium": "Reebok Stadium"
+    },
+    {
+      "tier": 2,
+      "name": "Wolverhampton Wanderers",
+      "shortName": "Wolves",
+      "primaryColour": "#FDB913",
+      "secondaryColour": "#231F20",
+      "stadium": "Molineux"
+    },
+    {
+      "tier": 2,
+      "name": "Sheffield United",
+      "shortName": "Sheff Utd",
+      "primaryColour": "#EE2737",
+      "secondaryColour": "#FFFFFF",
+      "stadium": "Bramall Lane"
+    },
+    {
+      "tier": 2,
+      "name": "Norwich City",
+      "shortName": "Norwich",
+      "primaryColour": "#FFF200",
+      "secondaryColour": "#00A650",
+      "stadium": "Carrow Road"
+    },
+    {
+      "tier": 2,
+      "name": "Huddersfield Town",
+      "shortName": "Huddersfield",
+      "primaryColour": "#0E63AD",
+      "secondaryColour": "#FFFFFF",
+      "stadium": "McAlpine Stadium"
+    },
+    {
+      "tier": 2,
+      "name": "Grimsby Town",
+      "shortName": "Grimsby",
+      "primaryColour": "#FFFFFF",
+      "secondaryColour": "#000000",
+      "stadium": "Blundell Park"
+    },
+    {
+      "tier": 2,
+      "name": "West Bromwich Albion",
+      "shortName": "West Brom",
+      "primaryColour": "#122F67",
+      "secondaryColour": "#FFFFFF",
+      "stadium": "The Hawthorns"
+    },
+    {
+      "tier": 2,
+      "name": "Barnsley",
+      "primaryColour": "#D71920",
+      "secondaryColour": "#FFFFFF",
+      "stadium": "Oakwell"
+    },
+    {
+      "tier": 2,
+      "name": "Crystal Palace",
+      "shortName": "Palace",
+      "primaryColour": "#1B458F",
+      "secondaryColour": "#C4122E",
+      "stadium": "Selhurst Park"
+    },
+    {
+      "tier": 2,
+      "name": "Tranmere Rovers",
+      "shortName": "Tranmere",
+      "primaryColour": "#FFFFFF",
+      "secondaryColour": "#00205B",
+      "stadium": "Prenton Park"
+    },
+    {
+      "tier": 2,
+      "name": "Stockport County",
+      "shortName": "Stockport",
+      "primaryColour": "#005DA4",
+      "secondaryColour": "#FFFFFF",
+      "stadium": "Edgeley Park"
+    },
+    {
+      "tier": 2,
+      "name": "Swindon Town",
+      "shortName": "Swindon",
+      "primaryColour": "#D7192D",
+      "secondaryColour": "#FFFFFF",
+      "stadium": "County Ground"
+    },
+    {
+      "tier": 2,
+      "name": "Crewe Alexandra",
+      "shortName": "Crewe",
+      "primaryColour": "#D71920",
+      "secondaryColour": "#FFFFFF",
+      "stadium": "Gresty Road"
+    },
+    {
+      "tier": 2,
+      "name": "Portsmouth",
+      "shortName": "Pompey",
+      "primaryColour": "#001489",
+      "secondaryColour": "#FFFFFF",
+      "stadium": "Fratton Park"
+    },
+    {
+      "tier": 2,
+      "name": "Queens Park Rangers",
+      "shortName": "QPR",
+      "primaryColour": "#1D5BA4",
+      "secondaryColour": "#FFFFFF",
+      "stadium": "Loftus Road"
+    },
+    {
+      "tier": 2,
+      "name": "Port Vale",
+      "primaryColour": "#FFFFFF",
+      "secondaryColour": "#000000",
+      "stadium": "Vale Park"
+    },
+    {
+      "tier": 2,
+      "name": "Bury",
+      "primaryColour": "#FFFFFF",
+      "secondaryColour": "#0A2240",
+      "stadium": "Gigg Lane"
+    },
+    {
+      "tier": 2,
+      "name": "Oxford United",
+      "shortName": "Oxford",
+      "primaryColour": "#FFF200",
+      "secondaryColour": "#00205B",
+      "stadium": "Manor Ground"
+    },
+    {
+      "tier": 2,
+      "name": "Bristol City",
+      "shortName": "Bristol C",
+      "primaryColour": "#E21A23",
+      "secondaryColour": "#FFFFFF",
+      "stadium": "Ashton Gate"
+    },
+    {
+      "tier": 3,
+      "name": "Fulham",
+      "primaryColour": "#FFFFFF",
+      "secondaryColour": "#000000",
+      "stadium": "Craven Cottage"
+    },
+    {
+      "tier": 3,
+      "name": "Walsall",
+      "primaryColour": "#E30613",
+      "secondaryColour": "#FFFFFF",
+      "stadium": "Bescot Stadium"
+    },
+    {
+      "tier": 3,
+      "name": "Manchester City",
+      "shortName": "Man City",
+      "primaryColour": "#6CABDD",
+      "secondaryColour": "#FFFFFF",
+      "stadium": "Maine Road"
+    },
+    {
+      "tier": 3,
+      "name": "Gillingham",
+      "primaryColour": "#0055A5",
+      "secondaryColour": "#FFFFFF",
+      "stadium": "Priestfield Stadium"
+    },
+    {
+      "tier": 3,
+      "name": "Preston North End",
+      "shortName": "Preston",
+      "primaryColour": "#FFFFFF",
+      "secondaryColour": "#00205B",
+      "stadium": "Deepdale"
+    },
+    {
+      "tier": 3,
+      "name": "Wigan Athletic",
+      "shortName": "Wigan",
+      "primaryColour": "#1D59AF",
+      "secondaryColour": "#FFFFFF",
+      "stadium": "Springfield Park"
+    },
+    {
+      "tier": 3,
+      "name": "AFC Bournemouth",
+      "shortName": "Bournemouth",
+      "primaryColour": "#DA291C",
+      "secondaryColour": "#000000",
+      "stadium": "Dean Court"
+    },
+    {
+      "tier": 3,
+      "name": "Stoke City",
+      "shortName": "Stoke",
+      "primaryColour": "#E03A3E",
+      "secondaryColour": "#FFFFFF",
+      "stadium": "Britannia Stadium"
+    },
+    {
+      "tier": 3,
+      "name": "Chesterfield",
+      "primaryColour": "#0047AB",
+      "secondaryColour": "#FFFFFF",
+      "stadium": "Saltergate"
+    },
+    {
+      "tier": 3,
+      "name": "Millwall",
+      "primaryColour": "#001D5E",
+      "secondaryColour": "#FFFFFF",
+      "stadium": "The Den"
+    },
+    {
+      "tier": 3,
+      "name": "Reading",
+      "primaryColour": "#004494",
+      "secondaryColour": "#FFFFFF",
+      "stadium": "Madejski Stadium"
+    },
+    {
+      "tier": 3,
+      "name": "Luton Town",
+      "shortName": "Luton",
+      "primaryColour": "#F78F1E",
+      "secondaryColour": "#002D62",
+      "stadium": "Kenilworth Road"
+    },
+    {
+      "tier": 3,
+      "name": "Bristol Rovers",
+      "shortName": "Bristol R",
+      "primaryColour": "#0055A5",
+      "secondaryColour": "#FFFFFF",
+      "stadium": "Memorial Stadium"
+    },
+    {
+      "tier": 3,
+      "name": "Blackpool",
+      "primaryColour": "#F68712",
+      "secondaryColour": "#FFFFFF",
+      "stadium": "Bloomfield Road"
+    },
+    {
+      "tier": 3,
+      "name": "Burnley",
+      "primaryColour": "#6C1D45",
+      "secondaryColour": "#99D6EA",
+      "stadium": "Turf Moor"
+    },
+    {
+      "tier": 3,
+      "name": "Notts County",
+      "shortName": "Notts Co",
+      "primaryColour": "#000000",
+      "secondaryColour": "#FFFFFF",
+      "stadium": "Meadow Lane"
+    },
+    {
+      "tier": 3,
+      "name": "Wrexham",
+      "primaryColour": "#D71920",
+      "secondaryColour": "#FFFFFF",
+      "stadium": "Racecourse Ground"
+    },
+    {
+      "tier": 3,
+      "name": "Colchester United",
+      "shortName": "Colchester",
+      "primaryColour": "#0055A5",
+      "secondaryColour": "#FFFFFF",
+      "stadium": "Layer Road"
+    },
+    {
+      "tier": 3,
+      "name": "Wycombe Wanderers",
+      "shortName": "Wycombe",
+      "primaryColour": "#0A2240",
+      "secondaryColour": "#8BB8E8",
+      "stadium": "Adams Park"
+    },
+    {
+      "tier": 3,
+      "name": "Oldham Athletic",
+      "shortName": "Oldham",
+      "primaryColour": "#0050A0",
+      "secondaryColour": "#FFFFFF",
+      "stadium": "Boundary Park"
+    },
+    {
+      "tier": 3,
+      "name": "York City",
+      "shortName": "York",
+      "primaryColour": "#C8102E",
+      "secondaryColour": "#FFFFFF",
+      "stadium": "Bootham Crescent"
+    },
+    {
+      "tier": 3,
+      "name": "Northampton Town",
+      "shortName": "Northampton",
+      "primaryColour": "#7A1E3B",
+      "secondaryColour": "#FFFFFF",
+      "stadium": "Sixfields Stadium"
+    },
+    {
+      "tier": 3,
+      "name": "Lincoln City",
+      "shortName": "Lincoln",
+      "primaryColour": "#D71920",
+      "secondaryColour": "#FFFFFF",
+      "stadium": "Sincil Bank"
+    },
+    {
+      "tier": 3,
+      "name": "Macclesfield Town",
+      "shortName": "Macclesfield",
+      "primaryColour": "#0055A5",
+      "secondaryColour": "#FFFFFF",
+      "stadium": "Moss Rose"
+    },
+    {
+      "tier": 4,
+      "name": "Brentford",
+      "primaryColour": "#E30613",
+      "secondaryColour": "#FFFFFF",
+      "stadium": "Griffin Park"
+    },
+    {
+      "tier": 4,
+      "name": "Cambridge United",
+      "shortName": "Cambridge",
+      "primaryColour": "#F7A600",
+      "secondaryColour": "#000000",
+      "stadium": "Abbey Stadium"
+    },
+    {
+      "tier": 4,
+      "name": "Cardiff City",
+      "shortName": "Cardiff",
+      "primaryColour": "#0070B5",
+      "secondaryColour": "#FFFFFF",
+      "stadium": "Ninian Park"
+    },
+    {
+      "tier": 4,
+      "name": "Scunthorpe United",
+      "shortName": "Scunthorpe",
+      "primaryColour": "#8B1E3F",
+      "secondaryColour": "#7EC8E3",
+      "stadium": "Glanford Park"
+    },
+    {
+      "tier": 4,
+      "name": "Rotherham United",
+      "shortName": "Rotherham",
+      "primaryColour": "#E30613",
+      "secondaryColour": "#FFFFFF",
+      "stadium": "Millmoor"
+    },
+    {
+      "tier": 4,
+      "name": "Leyton Orient",
+      "shortName": "Orient",
+      "primaryColour": "#C8102E",
+      "secondaryColour": "#FFFFFF",
+      "stadium": "Brisbane Road"
+    },
+    {
+      "tier": 4,
+      "name": "Swansea City",
+      "shortName": "Swansea",
+      "primaryColour": "#FFFFFF",
+      "secondaryColour": "#000000",
+      "stadium": "Vetch Field"
+    },
+    {
+      "tier": 4,
+      "name": "Mansfield Town",
+      "shortName": "Mansfield",
+      "primaryColour": "#F7D117",
+      "secondaryColour": "#0047AB",
+      "stadium": "Field Mill"
+    },
+    {
+      "tier": 4,
+      "name": "Peterborough United",
+      "shortName": "Peterborough",
+      "primaryColour": "#005DAA",
+      "secondaryColour": "#FFFFFF",
+      "stadium": "London Road"
+    },
+    {
+      "tier": 4,
+      "name": "Halifax Town",
+      "shortName": "Halifax",
+      "primaryColour": "#0055A5",
+      "secondaryColour": "#FFFFFF",
+      "stadium": "The Shay"
+    },
+    {
+      "tier": 4,
+      "name": "Darlington",
+      "primaryColour": "#FFFFFF",
+      "secondaryColour": "#000000",
+      "stadium": "Feethams"
+    },
+    {
+      "tier": 4,
+      "name": "Exeter City",
+      "shortName": "Exeter",
+      "primaryColour": "#E30613",
+      "secondaryColour": "#FFFFFF",
+      "stadium": "St James Park"
+    },
+    {
+      "tier": 4,
+      "name": "Plymouth Argyle",
+      "shortName": "Plymouth",
+      "primaryColour": "#00543C",
+      "secondaryColour": "#FFFFFF",
+      "stadium": "Home Park"
+    },
+    {
+      "tier": 4,
+      "name": "Chester City",
+      "shortName": "Chester",
+      "primaryColour": "#0055A5",
+      "secondaryColour": "#FFFFFF",
+      "stadium": "Deva Stadium"
+    },
+    {
+      "tier": 4,
+      "name": "Shrewsbury Town",
+      "shortName": "Shrewsbury",
+      "primaryColour": "#0055A5",
+      "secondaryColour": "#F7B500",
+      "stadium": "Gay Meadow"
+    },
+    {
+      "tier": 4,
+      "name": "Barnet",
+      "primaryColour": "#F7A600",
+      "secondaryColour": "#000000",
+      "stadium": "Underhill"
+    },
+    {
+      "tier": 4,
+      "name": "Brighton & Hove Albion",
+      "shortName": "Brighton",
+      "primaryColour": "#0057B8",
+      "secondaryColour": "#FFFFFF",
+      "stadium": "Priestfield Stadium"
+    },
+    {
+      "tier": 4,
+      "name": "Southend United",
+      "shortName": "Southend",
+      "primaryColour": "#0047AB",
+      "secondaryColour": "#FFFFFF",
+      "stadium": "Roots Hall"
+    },
+    {
+      "tier": 4,
+      "name": "Rochdale",
+      "primaryColour": "#0055A5",
+      "secondaryColour": "#FFFFFF",
+      "stadium": "Spotland"
+    },
+    {
+      "tier": 4,
+      "name": "Torquay United",
+      "shortName": "Torquay",
+      "primaryColour": "#FDE000",
+      "secondaryColour": "#0055A5",
+      "stadium": "Plainmoor"
+    },
+    {
+      "tier": 4,
+      "name": "Hull City",
+      "shortName": "Hull",
+      "primaryColour": "#F5A12D",
+      "secondaryColour": "#000000",
+      "stadium": "Boothferry Park"
+    },
+    {
+      "tier": 4,
+      "name": "Hartlepool United",
+      "shortName": "Hartlepool",
+      "primaryColour": "#0055A5",
+      "secondaryColour": "#FFFFFF",
+      "stadium": "Victoria Park"
+    },
+    {
+      "tier": 4,
+      "name": "Carlisle United",
+      "shortName": "Carlisle",
+      "primaryColour": "#0055A5",
+      "secondaryColour": "#FFFFFF",
+      "stadium": "Brunton Park"
+    },
+    {
+      "tier": 4,
+      "name": "Scarborough",
+      "primaryColour": "#C8102E",
+      "secondaryColour": "#FFFFFF",
+      "stadium": "McCain Stadium"
+    },
+    {
+      "tier": 5,
+      "name": "Cheltenham Town",
+      "shortName": "Cheltenham",
+      "primaryColour": "#C8102E",
+      "secondaryColour": "#FFFFFF",
+      "stadium": "Whaddon Road"
+    },
+    {
+      "tier": 5,
+      "name": "Kettering Town",
+      "shortName": "Kettering",
+      "primaryColour": "#C8102E",
+      "secondaryColour": "#FFFFFF",
+      "stadium": "Rockingham Road"
+    },
+    {
+      "tier": 5,
+      "name": "Hayes",
+      "primaryColour": "#C8102E",
+      "secondaryColour": "#FFFFFF",
+      "stadium": "Church Road"
+    },
+    {
+      "tier": 5,
+      "name": "Rushden & Diamonds",
+      "shortName": "Rushden & D",
+      "primaryColour": "#FFFFFF",
+      "secondaryColour": "#0055A5",
+      "stadium": "Nene Park"
+    },
+    {
+      "tier": 5,
+      "name": "Yeovil Town",
+      "shortName": "Yeovil",
+      "primaryColour": "#00843D",
+      "secondaryColour": "#FFFFFF",
+      "stadium": "Huish Park"
+    },
+    {
+      "tier": 5,
+      "name": "Stevenage Borough",
+      "shortName": "Stevenage",
+      "primaryColour": "#C8102E",
+      "secondaryColour": "#FFFFFF",
+      "stadium": "Broadhall Way"
+    },
+    {
+      "tier": 5,
+      "name": "Northwich Victoria",
+      "shortName": "Northwich",
+      "primaryColour": "#006A4E",
+      "secondaryColour": "#FFFFFF",
+      "stadium": "Drill Field"
+    },
+    {
+      "tier": 5,
+      "name": "Kingstonian",
+      "primaryColour": "#C8102E",
+      "secondaryColour": "#FFFFFF",
+      "stadium": "Kingsmeadow"
+    },
+    {
+      "tier": 5,
+      "name": "Woking",
+      "primaryColour": "#C8102E",
+      "secondaryColour": "#FFFFFF",
+      "stadium": "Kingfield"
+    },
+    {
+      "tier": 5,
+      "name": "Hednesford Town",
+      "shortName": "Hednesford",
+      "primaryColour": "#FFFFFF",
+      "secondaryColour": "#000000",
+      "stadium": "Keys Park"
+    },
+    {
+      "tier": 5,
+      "name": "Dover Athletic",
+      "shortName": "Dover",
+      "primaryColour": "#FFFFFF",
+      "secondaryColour": "#000000",
+      "stadium": "Crabble"
+    },
+    {
+      "tier": 5,
+      "name": "Forest Green Rovers",
+      "shortName": "Forest Green",
+      "primaryColour": "#FFFFFF",
+      "secondaryColour": "#000000",
+      "stadium": "The Lawn"
+    },
+    {
+      "tier": 5,
+      "name": "Hereford United",
+      "shortName": "Hereford",
+      "primaryColour": "#FFFFFF",
+      "secondaryColour": "#000000",
+      "stadium": "Edgar Street"
+    },
+    {
+      "tier": 5,
+      "name": "Morecambe",
+      "primaryColour": "#C8102E",
+      "secondaryColour": "#FFFFFF",
+      "stadium": "Christie Park"
+    },
+    {
+      "tier": 5,
+      "name": "Kidderminster Harriers",
+      "shortName": "Kidderminster",
+      "primaryColour": "#C8102E",
+      "secondaryColour": "#FFFFFF",
+      "stadium": "Aggborough"
+    },
+    {
+      "tier": 5,
+      "name": "Doncaster Rovers",
+      "shortName": "Doncaster",
+      "primaryColour": "#C8102E",
+      "secondaryColour": "#FFFFFF",
+      "stadium": "Belle Vue"
+    },
+    {
+      "tier": 5,
+      "name": "Telford United",
+      "shortName": "Telford",
+      "primaryColour": "#FFFFFF",
+      "secondaryColour": "#0055A5",
+      "stadium": "Bucks Head"
+    },
+    {
+      "tier": 5,
+      "name": "Southport",
+      "primaryColour": "#F7D117",
+      "secondaryColour": "#000000",
+      "stadium": "Haig Avenue"
+    },
+    {
+      "tier": 5,
+      "name": "Barrow",
+      "primaryColour": "#FFFFFF",
+      "secondaryColour": "#0055A5",
+      "stadium": "Holker Street"
+    },
+    {
+      "tier": 5,
+      "name": "Welling United",
+      "shortName": "Welling",
+      "primaryColour": "#C8102E",
+      "secondaryColour": "#FFFFFF",
+      "stadium": "Park View Road"
+    },
+    {
+      "tier": 5,
+      "name": "Leek Town",
+      "shortName": "Leek",
+      "primaryColour": "#0055A5",
+      "secondaryColour": "#FFFFFF",
+      "stadium": "Harrison Park"
+    },
+    {
+      "tier": 5,
+      "name": "Farnborough Town",
+      "shortName": "Farnborough",
+      "primaryColour": "#FFF200",
+      "secondaryColour": "#0055A5",
+      "stadium": "Cherrywood Road"
+    }
+  ]
+}
