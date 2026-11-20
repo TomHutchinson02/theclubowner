@@ -896,6 +896,421 @@
       "shortName": "Truro",
       "primaryColour": "#FDB913",
       "secondaryColour": "#000000"
+    },
+    {
+      "tier": 6,
+      "region": "North",
+      "name": "Scarborough Athletic",
+      "shortName": "Scarborough",
+      "primaryColour": "#C8102E",
+      "secondaryColour": "#FFFFFF",
+      "stadium": "Scarborough Sports Village"
+    },
+    {
+      "tier": 6,
+      "region": "North",
+      "name": "Chester",
+      "primaryColour": "#0033A0",
+      "secondaryColour": "#FFFFFF",
+      "stadium": "Deva Stadium"
+    },
+    {
+      "tier": 6,
+      "region": "North",
+      "name": "Kidderminster Harriers",
+      "shortName": "Kidderminster",
+      "primaryColour": "#C8102E",
+      "secondaryColour": "#FFFFFF",
+      "stadium": "Aggborough"
+    },
+    {
+      "tier": 6,
+      "region": "North",
+      "name": "Macclesfield",
+      "primaryColour": "#0057B8",
+      "secondaryColour": "#FFFFFF",
+      "stadium": "Moss Rose"
+    },
+    {
+      "tier": 6,
+      "region": "North",
+      "name": "AFC Fylde",
+      "shortName": "Fylde",
+      "primaryColour": "#FFFFFF",
+      "secondaryColour": "#C8102E",
+      "stadium": "Mill Farm"
+    },
+    {
+      "tier": 6,
+      "region": "North",
+      "name": "South Shields",
+      "primaryColour": "#7B1E3A",
+      "secondaryColour": "#87CEEB",
+      "stadium": "Mariners Park"
+    },
+    {
+      "tier": 6,
+      "region": "North",
+      "name": "Hereford",
+      "primaryColour": "#FFFFFF",
+      "secondaryColour": "#000000",
+      "stadium": "Edgar Street"
+    },
+    {
+      "tier": 6,
+      "region": "North",
+      "name": "Darlington",
+      "primaryColour": "#000000",
+      "secondaryColour": "#FFFFFF",
+      "stadium": "Blackwell Meadows"
+    },
+    {
+      "tier": 6,
+      "region": "North",
+      "name": "King's Lynn Town",
+      "shortName": "King's Lynn",
+      "primaryColour": "#0047AB",
+      "secondaryColour": "#F2C94C",
+      "stadium": "The Walks"
+    },
+    {
+      "tier": 6,
+      "region": "North",
+      "name": "Spennymoor Town",
+      "shortName": "Spennymoor",
+      "primaryColour": "#000000",
+      "secondaryColour": "#FFFFFF",
+      "stadium": "The Brewery Field"
+    },
+    {
+      "tier": 6,
+      "region": "North",
+      "name": "Buxton",
+      "primaryColour": "#1E50A0",
+      "secondaryColour": "#FFFFFF",
+      "stadium": "The Silverlands"
+    },
+    {
+      "tier": 6,
+      "region": "North",
+      "name": "Chorley",
+      "primaryColour": "#000000",
+      "secondaryColour": "#FFFFFF",
+      "stadium": "Victory Park"
+    },
+    {
+      "tier": 6,
+      "region": "North",
+      "name": "AFC Telford United",
+      "shortName": "Telford",
+      "primaryColour": "#FFFFFF",
+      "secondaryColour": "#000000",
+      "stadium": "New Bucks Head"
+    },
+    {
+      "tier": 6,
+      "region": "North",
+      "name": "Southport",
+      "primaryColour": "#FFD100",
+      "secondaryColour": "#000000",
+      "stadium": "Haig Avenue"
+    },
+    {
+      "tier": 6,
+      "region": "North",
+      "name": "Alfreton Town",
+      "shortName": "Alfreton",
+      "primaryColour": "#C8102E",
+      "secondaryColour": "#FFFFFF",
+      "stadium": "North Street"
+    },
+    {
+      "tier": 6,
+      "region": "North",
+      "name": "Radcliffe",
+      "primaryColour": "#1E3C8C",
+      "secondaryColour": "#FFFFFF",
+      "stadium": "Stainton Park"
+    },
+    {
+      "tier": 6,
+      "region": "North",
+      "name": "Curzon Ashton",
+      "shortName": "Curzon",
+      "primaryColour": "#1E50A0",
+      "secondaryColour": "#FFFFFF",
+      "stadium": "Tameside Stadium"
+    },
+    {
+      "tier": 6,
+      "region": "North",
+      "name": "Worksop Town",
+      "shortName": "Worksop",
+      "primaryColour": "#F5A623",
+      "secondaryColour": "#000000",
+      "stadium": "Sandy Lane"
+    },
+    {
+      "tier": 6,
+      "region": "North",
+      "name": "Peterborough Sports",
+      "shortName": "Peterborough S",
+      "primaryColour": "#1E3C8C",
+      "secondaryColour": "#FFFFFF",
+      "stadium": "Lincoln Road"
+    },
+    {
+      "tier": 6,
+      "region": "North",
+      "name": "Bedford Town",
+      "shortName": "Bedford",
+      "primaryColour": "#0055A4",
+      "secondaryColour": "#FFFFFF",
+      "stadium": "The Eyrie"
+    },
+    {
+      "tier": 6,
+      "region": "North",
+      "name": "Merthyr Town",
+      "shortName": "Merthyr",
+      "primaryColour": "#FFFFFF",
+      "secondaryColour": "#000000",
+      "stadium": "Penydarren Park"
+    },
+    {
+      "tier": 6,
+      "region": "North",
+      "name": "Marine",
+      "primaryColour": "#FFFFFF",
+      "secondaryColour": "#000000",
+      "stadium": "Rossett Park"
+    },
+    {
+      "tier": 6,
+      "region": "North",
+      "name": "Leamington",
+      "primaryColour": "#F2A900",
+      "secondaryColour": "#000000",
+      "stadium": "New Windmill Ground"
+    },
+    {
+      "tier": 6,
+      "region": "North",
+      "name": "Oxford City",
+      "primaryColour": "#1E3C8C",
+      "secondaryColour": "#FFFFFF",
+      "stadium": "Marsh Lane"
+    },
+    {
+      "tier": 6,
+      "region": "South",
+      "name": "Torquay United",
+      "shortName": "Torquay",
+      "primaryColour": "#FFD100",
+      "secondaryColour": "#0057B8",
+      "stadium": "Plainmoor"
+    },
+    {
+      "tier": 6,
+      "region": "South",
+      "name": "Ebbsfleet United",
+      "shortName": "Ebbsfleet",
+      "primaryColour": "#C8102E",
+      "secondaryColour": "#FFFFFF",
+      "stadium": "Stonebridge Road"
+    },
+    {
+      "tier": 6,
+      "region": "South",
+      "name": "Maidenhead United",
+      "shortName": "Maidenhead",
+      "primaryColour": "#000000",
+      "secondaryColour": "#FFFFFF",
+      "stadium": "York Road"
+    },
+    {
+      "tier": 6,
+      "region": "South",
+      "name": "Dagenham & Redbridge",
+      "shortName": "Dagenham",
+      "primaryColour": "#C8102E",
+      "secondaryColour": "#0033A0",
+      "stadium": "Victoria Road"
+    },
+    {
+      "tier": 6,
+      "region": "South",
+      "name": "Worthing",
+      "primaryColour": "#C8102E",
+      "secondaryColour": "#FFFFFF",
+      "stadium": "Woodside Road"
+    },
+    {
+      "tier": 6,
+      "region": "South",
+      "name": "Maidstone United",
+      "shortName": "Maidstone",
+      "primaryColour": "#F2A900",
+      "secondaryColour": "#000000",
+      "stadium": "Gallagher Stadium"
+    },
+    {
+      "tier": 6,
+      "region": "South",
+      "name": "Hornchurch",
+      "primaryColour": "#C8102E",
+      "secondaryColour": "#FFFFFF",
+      "stadium": "Hornchurch Stadium"
+    },
+    {
+      "tier": 6,
+      "region": "South",
+      "name": "Chelmsford City",
+      "shortName": "Chelmsford",
+      "primaryColour": "#7B1E3A",
+      "secondaryColour": "#FFFFFF",
+      "stadium": "Melbourne Community Stadium"
+    },
+    {
+      "tier": 6,
+      "region": "South",
+      "name": "Bath City",
+      "shortName": "Bath",
+      "primaryColour": "#000000",
+      "secondaryColour": "#FFFFFF",
+      "stadium": "Twerton Park"
+    },
+    {
+      "tier": 6,
+      "region": "South",
+      "name": "Dorking Wanderers",
+      "shortName": "Dorking",
+      "primaryColour": "#C8102E",
+      "secondaryColour": "#FFFFFF",
+      "stadium": "Meadowbank"
+    },
+    {
+      "tier": 6,
+      "region": "South",
+      "name": "Farnborough",
+      "primaryColour": "#FFD100",
+      "secondaryColour": "#0033A0",
+      "stadium": "Cherrywood Road"
+    },
+    {
+      "tier": 6,
+      "region": "South",
+      "name": "Hemel Hempstead Town",
+      "shortName": "Hemel",
+      "primaryColour": "#C8102E",
+      "secondaryColour": "#FFFFFF",
+      "stadium": "Vauxhall Road"
+    },
+    {
+      "tier": 6,
+      "region": "South",
+      "name": "Slough Town",
+      "shortName": "Slough",
+      "primaryColour": "#F5A623",
+      "secondaryColour": "#1E2A5A",
+      "stadium": "Arbour Park"
+    },
+    {
+      "tier": 6,
+      "region": "South",
+      "name": "Weston-super-Mare",
+      "shortName": "Weston",
+      "primaryColour": "#FFFFFF",
+      "secondaryColour": "#000000",
+      "stadium": "Woodspring Stadium"
+    },
+    {
+      "tier": 6,
+      "region": "South",
+      "name": "Eastbourne Borough",
+      "shortName": "Eastbourne",
+      "primaryColour": "#C8102E",
+      "secondaryColour": "#000000",
+      "stadium": "Priory Lane"
+    },
+    {
+      "tier": 6,
+      "region": "South",
+      "name": "Tonbridge Angels",
+      "shortName": "Tonbridge",
+      "primaryColour": "#0057B8",
+      "secondaryColour": "#FFFFFF",
+      "stadium": "Longmead Stadium"
+    },
+    {
+      "tier": 6,
+      "region": "South",
+      "name": "Chippenham Town",
+      "shortName": "Chippenham",
+      "primaryColour": "#0057B8",
+      "secondaryColour": "#FFFFFF",
+      "stadium": "Hardenhuish Park"
+    },
+    {
+      "tier": 6,
+      "region": "South",
+      "name": "Hampton & Richmond Borough",
+      "shortName": "Hampton & Richmond",
+      "primaryColour": "#C8102E",
+      "secondaryColour": "#0033A0",
+      "stadium": "Beveree Stadium"
+    },
+    {
+      "tier": 6,
+      "region": "South",
+      "name": "Enfield Town",
+      "shortName": "Enfield",
+      "primaryColour": "#FFFFFF",
+      "secondaryColour": "#0033A0",
+      "stadium": "Queen Elizabeth II Stadium"
+    },
+    {
+      "tier": 6,
+      "region": "South",
+      "name": "Salisbury",
+      "primaryColour": "#FFFFFF",
+      "secondaryColour": "#000000",
+      "stadium": "Raymond McEnhill Stadium"
+    },
+    {
+      "tier": 6,
+      "region": "South",
+      "name": "Dover Athletic",
+      "shortName": "Dover",
+      "primaryColour": "#FFFFFF",
+      "secondaryColour": "#000000",
+      "stadium": "Crabble Athletic Ground"
+    },
+    {
+      "tier": 6,
+      "region": "South",
+      "name": "Chesham United",
+      "shortName": "Chesham",
+      "primaryColour": "#7B1E3A",
+      "secondaryColour": "#87CEEB",
+      "stadium": "The Meadow"
+    },
+    {
+      "tier": 6,
+      "region": "South",
+      "name": "Horsham",
+      "primaryColour": "#FFD100",
+      "secondaryColour": "#1E7B3C",
+      "stadium": "Hop Oast"
+    },
+    {
+      "tier": 6,
+      "region": "South",
+      "name": "AFC Totton",
+      "shortName": "Totton",
+      "primaryColour": "#C8102E",
+      "secondaryColour": "#000000",
+      "stadium": "Testwood Stadium"
     }
   ],
   "leagues": [
@@ -903,7 +1318,9 @@
     "Championship",
     "League One",
     "League Two",
-    "National League"
+    "National League",
+    "National League North",
+    "National League South"
   ],
   "cups": {
     "fa-cup": "FA Cup",

@@ -1,7 +1,7 @@
 {
-  "format": 1,
+  "format": 2,
   "name": "Sample pack",
-  "author": "The Club Owner",
+  "author": "Chairman",
   "clubs": [
     {
       "tier": 1,
@@ -37,15 +37,57 @@
       "tier": 5,
       "name": "Brightwater FC",
       "shortName": "Brightwater"
+    },
+    {
+      "tier": 6,
+      "region": "North",
+      "name": "Fellbeck Town",
+      "shortName": "Fellbeck"
+    },
+    {
+      "tier": 6,
+      "region": "South",
+      "name": "Saltmarsh Athletic",
+      "shortName": "Saltmarsh"
+    },
+    {
+      "nation": "esp",
+      "tier": 1,
+      "name": "Real Montaval",
+      "shortName": "Montaval",
+      "primaryColour": "#FFFFFF",
+      "secondaryColour": "#1A1A6E",
+      "stadium": "Estadio Montaval"
+    },
+    {
+      "nation": "ita",
+      "tier": 1,
+      "name": "Inter Valdoro",
+      "shortName": "Valdoro",
+      "primaryColour": "#0A3D91",
+      "secondaryColour": "#000000"
+    },
+    {
+      "nation": "ger",
+      "tier": 1,
+      "name": "SV Lindenau",
+      "shortName": "Lindenau",
+      "primaryColour": "#D00027",
+      "secondaryColour": "#FFFFFF"
+    },
+    {
+      "nation": "fra",
+      "tier": 1,
+      "name": "Olympique Marin",
+      "shortName": "Marin",
+      "primaryColour": "#2FAEE0",
+      "secondaryColour": "#FFFFFF"
     }
   ],
-  "leagues": [
-    "Kingsport Premier",
-    "Kingsport Championship",
-    "",
-    ""
-  ],
-  "cups": {
-    "fa-cup": "Kingsport Challenge Cup"
+  "leaguesAbroad": {
+    "esp": [
+      "Primera Muestra",
+      "Segunda Muestra"
+    ]
   }
 }

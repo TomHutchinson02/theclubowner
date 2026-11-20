@@ -15,20 +15,22 @@
 <nav><a href="index.html">Home</a><a href="data-packs.html">Data packs</a><a href="presskit.html">Press</a><a href="support.html">Support</a><a href="privacy.html">Privacy</a></nav>
 
 <h1>Data packs</h1>
-<p>Every club, league and cup in The Club Owner is fictional. A <strong>data pack</strong> is a small file that renames them: clubs (with short names, kit colours and ground names), the five leagues and the six cups. Packs never change ratings, money or rules, and your own club always keeps the name you gave it.</p>
+<p>Every club, league and cup in The Club Owner is fictional. A <strong>data pack</strong> is a small file that renames them: clubs (with short names, kit colours and ground names), leagues and cups, in England and all four countries abroad. Packs never change ratings, money or rules, and your own club always keeps the name you gave it.</p>
 
 <h2>Real clubs packs</h2>
 <div class="card">
-<p><strong>English Football 2026/27</strong> <span class="tag">New</span><br>This season's real clubs in all five tiers, after last season's promotions and relegations, with their kit colours and grounds, plus the real league and cup names.</p>
-<p><a class="btn" href="english-football-2026-27.json" download>Download the 2026/27 pack</a></p>
-<p class="muted" style="margin-top:18px"><strong>English Football 2025/26</strong>: last season's clubs. <a href="english-football-2025-26.json" download>Download the 2025/26 pack</a></p>
+<p><strong>European Football 2026/27</strong> <span class="tag">New</span><br>Every club in the game, in one pack: all six English tiers, including the National League North and South, plus the top two divisions in Spain, Italy, Germany and France. This season's line-ups, with kit colours, grounds and the real league and cup names.</p>
+<p><a class="btn" href="european-football-2026-27.json" download>Download the 2026/27 pack</a></p>
+<p class="muted" style="margin-top:18px"><strong>European Football 2025/26</strong>: last season's clubs, every nation. <a href="european-football-2025-26.json" download>Download the 2025/26 pack</a></p>
+<p class="muted"><strong>England only</strong>: all six tiers. <a href="english-football-2026-27.json" download>2026/27</a> · <a href="english-football-2025-26.json" download>2025/26</a></p>
+<p class="muted">Needs version 1.3 or later of the game.</p>
 </div>
 
 <h2>Retro pack</h2>
 <div class="card">
 <p><strong>English Football 1998/99</strong> <span class="tag">Retro</span><br>The treble season. Manchester City in the third tier, Fulham on the rise and Highbury, The Dell, Maine Road and Filbert Street still standing. With the First, Second and Third Divisions, the Worthington Cup, the Auto Windscreens Shield and all three European competitions, including the Cup Winners' Cup in its final season.</p>
 <p><a class="btn" href="english-football-1998-99.json" download>Download the 1998/99 pack</a></p>
-<p class="muted">The Conference had 22 clubs then, so one bottom-division club keeps its fictional name.</p>
+<p class="muted">The Conference had 22 clubs then, so one fifth-tier club keeps its fictional name, as do the sixth-tier North and South.</p>
 <p class="muted">Made by a fan and not affiliated with or endorsed by any club, league or competition. All names belong to their owners.</p>
 </div>
 
@@ -39,7 +41,7 @@
 <li>In the game, tap <strong>Import pack</strong>: on the welcome screen when you start, or in <strong>Menu → Data packs</strong>.</li>
 <li>Choose the file. New games use the pack straight away. To rename the game you're already playing, tap <strong>Apply to this game</strong>.</li>
 </ol>
-<p class="muted">With a pack, a new game puts your club in place of one of the pack's bottom-division clubs, chosen at random.</p>
+<p class="muted">With a pack, a new game puts your club in place of one of the pack's clubs in your starting division, chosen at random.</p>
 </div>
 
 <h2>Making your own</h2>
@@ -48,26 +50,34 @@
 
 <h2>File format</h2>
 <pre>{
-  "format": 1,
+  "format": 2,
   "name": "My pack",
   "author": "Your name",
-  "leagues": ["Top league", "Second tier", "Third tier", "Fourth tier", "Fifth tier"],
-  "cups": { "fa-cup": "My Cup" },
+  "leagues": ["Top league", "Second tier", "Third tier", "Fourth tier",
+              "Fifth tier", "Sixth tier north", "Sixth tier south"],
+  "leaguesAbroad": { "esp": ["Top", "Second"], "ita": ["Top", "Second"],
+                     "ger": ["Top", "Second"], "fra": ["Top", "Second"] },
+  "cups": { "fa-cup": "My Cup", "cup-esp": "Spanish Cup" },
   "clubs": [
     { "tier": 1, "name": "Club name", "shortName": "Short",
-      "primaryColour": "#C8102E", "secondaryColour": "#FFFFFF", "stadium": "Ground name" }
+      "primaryColour": "#C8102E", "secondaryColour": "#FFFFFF", "stadium": "Ground name" },
+    { "tier": 6, "region": "North", "name": "Northern club" },
+    { "nation": "esp", "tier": 1, "name": "Spanish club" }
   ]
 }</pre>
 <table>
 <tr><th>Field</th><th>Notes</th></tr>
 <tr><td><code>name</code></td><td>Required. Shown in the pack list.</td></tr>
 <tr><td><code>author</code></td><td>Optional.</td></tr>
-<tr><td><code>leagues</code></td><td>Optional. League names, top division first. Leave one blank to keep its name.</td></tr>
-<tr><td><code>cups</code></td><td>Optional. Cup names by id: <code>fa-cup</code> (the main knockout cup), <code>league-cup</code>, <code>efl-trophy</code> (lower-league trophy), <code>champions-league</code>, <code>europa-league</code> and <code>conference-league</code> (the three continental competitions, strongest first).</td></tr>
-<tr><td><code>clubs[].tier</code></td><td>1 = top division … 5 = bottom.</td></tr>
+<tr><td><code>leagues</code></td><td>Optional. England's league names, top first, then the North and South (7 in all). Leave one blank to keep its name. Packs with 5 still work.</td></tr>
+<tr><td><code>leaguesAbroad</code></td><td>Optional. League names for <code>esp</code>, <code>ita</code>, <code>ger</code> and <code>fra</code>, top first.</td></tr>
+<tr><td><code>cups</code></td><td>Optional. Cup names by id: <code>fa-cup</code> (the main knockout cup), <code>league-cup</code>, <code>efl-trophy</code> (lower-league trophy), <code>cup-esp</code>, <code>cup-ita</code>, <code>cup-ger</code>, <code>cup-fra</code> (each country's cup), and <code>champions-league</code>, <code>europa-league</code> and <code>conference-league</code> (the three continental competitions, strongest first).</td></tr>
+<tr><td><code>clubs[].nation</code></td><td>Optional. <code>eng</code> (the default), <code>esp</code>, <code>ita</code>, <code>ger</code> or <code>fra</code>.</td></tr>
+<tr><td><code>clubs[].tier</code></td><td>1 = that country's top division. England has 6 tiers, the others 2.</td></tr>
+<tr><td><code>clubs[].region</code></td><td>England tier 6 only: <code>North</code> or <code>South</code>.</td></tr>
 <tr><td><code>clubs[].name</code></td><td>Up to 40 characters, unique in the pack.</td></tr>
 <tr><td><code>shortName</code>, <code>primaryColour</code>, <code>secondaryColour</code>, <code>stadium</code></td><td>Optional. Colours look like <code>#1B5E3B</code>.</td></tr>
 </table>
-<p><strong>List the strongest club in each tier first.</strong> The first club takes over the generated club with the biggest reputation, and so on. A tier can name up to 20 clubs (top) or 24 (others); the rest keep their names. Comments and trailing commas are allowed.</p>
+<p><strong>List the strongest club in each tier first.</strong> The first club takes over the generated club with the biggest reputation, and so on. A tier can name up to as many clubs as its division (England 20, then 24 in each of the others; Spain 20 and 22; Italy 20 and 20; Germany and France 18 and 18); the rest keep their names. Older format 1 packs still work. Comments and trailing commas are allowed.</p>
 <footer>© 2026 Thomas Hutchinson. All clubs, leagues, cups, players and managers in The Club Owner are fictional.</footer>
 </main></body></html>
