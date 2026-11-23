@@ -1493,5 +1493,20 @@
     "champions-league": "Champions League",
     "europa-league": "Europa League",
     "conference-league": "Conference League"
-  }
+  },
+  "kitMakers": [
+    "Nike",
+    "adidas",
+    "Puma",
+    "Umbro",
+    "New Balance",
+    "Castore",
+    "Macron",
+    "Kappa",
+    "Joma",
+    "Hummel",
+    "Errea",
+    "Oxen",
+    "Le Coq Sportif"
+  ]
 }
